@@ -13,18 +13,18 @@
     padding-left: 5%;
     padding-right: 5%;
     padding-bottom: 5%;
-    img{
+    /* img{
         width: 40px;
-    }
+    } */
 }
 
 @media (max-width:1000px){
 
     .contact-section{
         padding-bottom: 30px;
-        img{
+        /* img{
             width: 35px;
-        }
+        } */
     }
 }
 
