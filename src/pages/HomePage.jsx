@@ -2,6 +2,7 @@ import './HomePage.css'
 import linkedin from '../assets/linkedin.svg'
 import github from '../assets/github.svg'
 import instagram from '../assets/instagram.svg'
+import illustration3 from '../assets/illustration3.png'
 import React from 'react';
 
 const HomePage = () => {
@@ -23,6 +24,7 @@ const HomePage = () => {
                </div>
 
                <div className='image-section'>
+                    <img src={illustration3} width={'40%'}/>
                </div>
         </div>
     );
