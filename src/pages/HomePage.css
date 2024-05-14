@@ -28,6 +28,10 @@
         color: #4CCD99;  
     }
 }
+.contact-section a img:hover{
+    transition:ease-in-out all 0.2s ;
+    filter: invert(73%) sepia(67%) saturate(347%) hue-rotate(99deg) brightness(99%) contrast(95%);
+}
 
 .info-section{
     width: 60%;
@@ -77,9 +81,11 @@
 .image-section{
     width: 30%;
     position: relative;
+    left:-5%;
     img{
         width: 100%;
         pointer-events: none;
+        opacity: 0.6;
     }
 }
 
@@ -142,6 +148,7 @@
         display: flex;
         justify-content: center;
         align-items: center;
+        left:0;
         img{
             width: 60%;
         }
@@ -159,4 +166,11 @@
     .info-section{
         top:30%;
     }
+} */
+
+/* code{
+    background-color:#4CCD99;
+    padding: 2px 6px;
+    color:#848897;
+    border-radius: 8px;
 } */

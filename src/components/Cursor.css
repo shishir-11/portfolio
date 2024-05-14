@@ -1,0 +1,9 @@
+#cursor-bg{
+    position: absolute;
+    width: 400px;
+    height: 400px;
+    background: #19213b;
+    border-radius: 50%;
+    filter: blur(200px);
+    z-index: -1;
+}

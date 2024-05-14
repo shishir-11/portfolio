@@ -1,0 +1,26 @@
+.simple-card{
+    min-height: 285px;
+    flex: 0 0 30%;
+    background: #112240;
+    transition: 0.3s all ease;
+
+}
+
+.simple-card:hover {
+    transform: translate(0 , -7px);
+}
+
+@media (max-width:1000px){
+    .simple-card{
+        flex: 0 0 40%;
+        min-height: 310px;
+
+    }
+}
+
+@media (max-width:600px){
+    .simple-card{
+        flex: 0 0 80%;
+        min-height: 285px;
+    }
+}
