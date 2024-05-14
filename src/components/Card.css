@@ -1,19 +1,67 @@
 .simple-card{
-    min-height: 285px;
+    min-height: 300px;
     flex: 0 0 30%;
-    background: #112240;
+    background: #192a46;
     transition: 0.3s all ease;
-
+    border-radius: 5px;
 }
+
+.simple-card-content{
+    display: flex;
+    flex-direction: column;
+    height: 100%;
+    padding: 30px 25px;
+    .top-section{
+        flex: 0 0 15%;
+        padding-bottom: 5px;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        .simple-card-content-type{
+            filter: invert(70%) sepia(76%) saturate(324%) hue-rotate(100deg) brightness(87%) contrast(88%);
+        }
+        .simple-card-link-section{
+            display: flex;
+            gap: 20px;
+            a{
+                filter: invert(57%) sepia(21%) saturate(195%) hue-rotate(190deg) brightness(90%) contrast(92%);
+            }
+        }
+    }
+
+    .simple-card-content-text{
+        flex: 0 0 55%;
+        h2{
+            color: #cfd8f7;
+            transition: all 0.3s ease-in-out;
+            font-size: 1.3rem;
+        }
+        p{
+            color: #868eac;
+            line-height: 22px;
+        }
+    }
+}
+
+.simple-card-content-foot{
+    flex: 0 0 10%;
+}
+/* .simple-card-content-text h2:hover{
+    color: #4CCD99;
+} */
 
 .simple-card:hover {
     transform: translate(0 , -7px);
+
+    .simple-card-content-text h2{
+        color: #4CCD99;
+    }
 }
 
 @media (max-width:1000px){
     .simple-card{
         flex: 0 0 40%;
-        min-height: 310px;
+        min-height: 350px;
 
     }
 }
