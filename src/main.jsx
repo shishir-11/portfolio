@@ -23,3 +23,5 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 })
 });
+
+import ReactDOMServer from 'react-dom/server'

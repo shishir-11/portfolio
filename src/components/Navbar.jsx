@@ -1,10 +1,10 @@
-import { Link, useLocation } from 'react-router-dom';
+import { Link} from 'react-router-dom';
 import './Navbar.css'
 
 import React from 'react';
 
 const Navbar = () => {
-    const path = useLocation().pathname;
+    // const path = useLocation().pathname;
     // console.log(path);
     
     return (
