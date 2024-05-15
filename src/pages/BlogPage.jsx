@@ -12,7 +12,7 @@ const BlogPage = () => {
                 <Card content='abcdefghijklmnopqrstuvwxyz'/>
                 <Card content='abcdefghijklmnopqrstuvwxyz'/>
                 <Card content='abcdefghijklmnopqrstuvwxyz'/>
-                <Card content='abcdefghijklmnopqrstuvwxyz'/>
+                {/* <Card content='abcdefghijklmnopqrstuvwxyz'/> */}
             </div>
         </div>
     );

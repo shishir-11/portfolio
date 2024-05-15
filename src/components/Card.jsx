@@ -17,7 +17,7 @@ const Card = (props) => {
         <div className='simple-card' onClick={()=>{navigate('/')}}>
                 <div className='simple-card-content'>
                     <div className='top-section'>
-                        <img src={codeIcon} width={'50px'} className='simple-card-content-type'/>
+                        <img src={codeIcon} width={'40px'} className='simple-card-content-type'/>
                         <div className='simple-card-link-section'>
                             <a href={'https://github.com/shishir-11'}><img src={githubIcon} width={'30px'}/></a>
                             <a href={'https://github.com/shishir-11'}><img src={linkIcon} width={'30px'}/></a>
