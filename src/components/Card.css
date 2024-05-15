@@ -45,6 +45,9 @@
 
 .simple-card-content-foot{
     flex: 0 0 10%;
+    display: flex;
+    align-items: center;
+    gap: 20px;
 }
 /* .simple-card-content-text h2:hover{
     color: #4CCD99;
