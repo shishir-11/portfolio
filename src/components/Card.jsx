@@ -26,7 +26,7 @@ const Card = (props) => {
                     </div>
 
                     <div className='simple-card-content-text'>
-                        <Link to={''}><h2 className='roboto-bold'>{props.title}</h2></Link>
+                        <Link to={`/${props.type}s/${props.id}`}><h2 className='roboto-bold'>{props.title}</h2></Link>
                         <p className='roboto-regular'>{props.subtitle}</p>
                     </div>
 

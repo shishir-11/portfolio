@@ -1,0 +1,22 @@
+#single-page-blog{
+    padding: 2rem 2rem;
+    display: flex;
+    justify-content: center;
+}
+
+.blog-container{
+    width: 70%;
+    max-width: 1200px;
+}
+
+@media(max-width:1000px){
+    .blog-container{
+        width: 80%;
+    }
+}
+
+@media(max-width:600px){
+    .blog-container{
+        width: 90%;
+    }
+}

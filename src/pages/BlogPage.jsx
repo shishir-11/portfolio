@@ -11,6 +11,7 @@ const BlogPage = () => {
             <div className='blog-area'>
                 {blogData.map(blog=>(
                     <Card
+                        id = {blog.id}
                         type='blog'
                         title={blog.title}
                         subtitle={blog.subtitle} 
