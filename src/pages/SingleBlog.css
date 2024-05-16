@@ -27,6 +27,13 @@
         /* margin: 0; */
         line-height: normal;
     }
+    img{
+        width: 70%;
+        object-fit: cover;
+        padding: 1rem 15%;
+        /* height: 00px */
+        /* padding: 0 20%; */
+    }
 
     p{
         color: #c2c7d4;
