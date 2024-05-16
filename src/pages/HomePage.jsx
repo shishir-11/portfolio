@@ -13,7 +13,7 @@ const HomePage = () => {
 
                     <a href='https://github.com/shishir-11'><img src={github} width={'40px'}/></a>
                     <a href='https://www.linkedin.com/in/shishir-kushwaha-450437258/'><img src={linkedin} width='40px'/></a>
-                    <a href='https:/www.instagram.com/shishir_.05'><img src={instagram} width={'35px'}/></a>
+                    <a href='https://www.instagram.com/shishir_.05'><img src={instagram} width={'35px'}/></a>
                </div>
 
                <div className='info-section'>
