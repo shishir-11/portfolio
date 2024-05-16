@@ -10,14 +10,14 @@ const Navbar = () => {
     return (
         <nav className='navbar'>
             <div className='logo-area jaini-purva-regular'>
-                <Link to={'/'}>SHISHIR</Link>
+                <Link to={'/portfolio'}>SHISHIR</Link>
             </div>
 
             <div className='link-section roboto-regular'>
-                <Link to='/'>Home</Link>
+                <Link to='/portfolio'>Home</Link>
                 {/* <Link to={'/about'}>About</Link> */}
-                <Link to={'/blogs'}>Blogs</Link>
-                <Link to={'/projects'}>Projects</Link>
+                <Link to={'/portfolio/blogs'}>Blogs</Link>
+                <Link to={'/portfolio/projects'}>Projects</Link>
             </div>
         </nav>
     );
