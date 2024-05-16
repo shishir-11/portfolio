@@ -13,22 +13,10 @@ import Tags from '../components/Tags';
 
 const SingleBlog = () => {
     const [content,setContent] = useState('')
-    // const [gitLink,setGitLink] = useState('')
-    // const [extLink,setExtLink] = useState('')
-    // const [date,setDate] = useState('')
-    // const [tags,setTags] = useState(null)
-
-    // const [reqBlog,setreqBlog]  = useState(null)
-    // const [blog,setBlog] = useState(null)
     const params = useParams();
     const blogID = parseInt(params.id);
     const blog = blogData.find(blog=>blog.id===blogID)
-    // console.log(blog);
-    // setDate(blog.date)
-    // setGitLink(blog.github_link)
-    // setExtLink(blog.external_link)
-    // setTags(blog.)
-    // setreqBlog(blog)
+
     async function fetchContent(){
         const resp = await fetch(`/${blog.content}`);
         const data = await resp.text()
