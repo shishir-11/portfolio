@@ -2,7 +2,7 @@ import React from 'react'
 import ReactDOM from 'react-dom/client'
 import App from './App.jsx'
 import './index.css'
-import {Router as Router} from 'react-router-dom'
+import {BrowserRouter as Router} from 'react-router-dom'
 
 ReactDOM.createRoot(document.getElementById('root')).render(
   <Router>
@@ -23,5 +23,3 @@ document.addEventListener('DOMContentLoaded', function() {
     })
 })
 });
-
-import ReactDOMServer from 'react-dom/server'
