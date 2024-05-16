@@ -13,10 +13,10 @@ function App() {
       <Cursor/>
       <Navbar/>
       <Routes>
-        <Route index element={<HomePage/>}/>
-        <Route path={'/blogs'} exact element={<BlogPage/>}/>
-        <Route path={'/projects'} exact element={<ProjPage/>}/>
-        <Route path={`/blogs/:id`} element={<SingleBlog/>}/>
+        <Route path={'/portfolio'} element={<HomePage/>}/>
+        <Route path={'/portfolio/blogs'} exact element={<BlogPage/>}/>
+        <Route path={'/portfolio/projects'} exact element={<ProjPage/>}/>
+        <Route path={`/portfolio/blogs/:id`} element={<SingleBlog/>}/>
       </Routes>
     </>
   )

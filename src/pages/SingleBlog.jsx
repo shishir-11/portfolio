@@ -1,6 +1,5 @@
 import { useParams } from 'react-router-dom';
 
-import './SingleBlog.css'
 import hljs from 'highlight.js';
 import 'highlight.js/styles/github-dark.css'
 import React, { useEffect, useState } from 'react';
@@ -9,6 +8,7 @@ import parse from 'html-react-parser'
 import githubIcon from '../assets/github.svg'
 import linkIcon from '../assets/link.svg'
 import Tags from '../components/Tags';
+import './SingleBlog.css'
 
 
 const SingleBlog = () => {
@@ -18,21 +18,27 @@ const SingleBlog = () => {
     const blog = blogData.find(blog=>blog.id===blogID)
 
     async function fetchContent(){
-        const resp = await fetch(`/${blog.content}`);
-        const data = await resp.text()
-        setContent(data)
-        console.log(data);
+        if(blog && blog.content){
+            const resp = await fetch(`/portfolio/${blog.content}`);
+            const data = await resp.text()
+            setContent(data)
+            console.log(data);
+        }
     }
 
     useEffect(()=>{
         fetchContent()
-    },[])
+    },[blogID])
 
     useEffect(()=>{
         const nodes = document.querySelectorAll('pre');
         nodes.forEach(node=>hljs.highlightBlock(node));
 
     },[content])
+
+    if(!blog){
+        return <div>Blog not Found</div>
+    }
     return (
         <div id="single-page-blog">
             <div className='blog-container-header'>
