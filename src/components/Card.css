@@ -2,7 +2,7 @@
     min-height: 300px;
     flex: 0 0 30%;
     background: #192a46;
-    transition: 0.3s all ease;
+    transition: 0.2s all ease;
     border-radius: 5px;
 }
 
@@ -33,7 +33,7 @@
         flex: 0 0 55%;
         h2{
             color: #cfd8f7;
-            transition: all 0.3s ease-in-out;
+            transition: all 0.2s ease-in-out;
             font-size: 1.3rem;
         }
         p{

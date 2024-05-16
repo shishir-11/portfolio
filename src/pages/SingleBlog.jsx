@@ -1,7 +1,8 @@
 import { useParams } from 'react-router-dom';
 
 import './SingleBlog.css'
-
+import hljs from 'highlight.js';
+import 'highlight.js/styles/github-dark.css'
 import React, { useEffect, useState } from 'react';
 import blogData from '../assets/blogData';
 import parse from 'html-react-parser'
@@ -38,6 +39,12 @@ const SingleBlog = () => {
     useEffect(()=>{
         fetchContent()
     },[])
+
+    useEffect(()=>{
+        const nodes = document.querySelectorAll('pre');
+        nodes.forEach(node=>hljs.highlightBlock(node));
+
+    },[content])
     return (
         <div id="single-page-blog">
             <div className='blog-container-header'>
