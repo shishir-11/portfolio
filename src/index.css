@@ -1,5 +1,8 @@
 body{
   background-color: #0a192f;
+  /* width: fit-content; */
+  /* max-width: 100vw; */
+  /* overflow-x: hidden; */
 }
 
 .freeman-regular {
