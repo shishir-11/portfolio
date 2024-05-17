@@ -85,6 +85,13 @@
     filter: invert(70%) sepia(76%) saturate(324%) hue-rotate(100deg) brightness(87%) contrast(88%);
 }
 
+pre{
+    padding: 1rem;
+    overflow: scroll;
+    max-height: 400px;
+    border-radius: 7px;
+}
+
 @media(max-width:1150px){
     .blog-container{
         width: 600px;
@@ -95,13 +102,6 @@
     
 }
 
-pre{
-    padding: 1rem;
-    overflow: scroll;
-    max-height: 400px;
-    border-radius: 7px;
-}
-
 @media(max-width:700px){
     #single-page-blog{
         padding: 1.5rem 1rem;
@@ -109,16 +109,16 @@ pre{
     .blog-container{
         width: 90%;
         padding: 1rem 1.5rem;
-        display: flex;
+        /* display: flex;
         align-items: center;
-        text-align: center;
+        text-align: center; */
         /* font-size: 0.9rem; */
         /* h1{
             font-size: x-large;
         } */
-        img{
+        /* img{
             width: 100%;
-        }
+        } */
         /* font-size: medium;
         line-height: 20px; */
     }
