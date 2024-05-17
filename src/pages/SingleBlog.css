@@ -99,6 +99,7 @@ pre{
     padding: 1rem;
     overflow: scroll;
     max-height: 400px;
+    border-radius: 7px;
 }
 
 @media(max-width:700px){
