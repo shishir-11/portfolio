@@ -13,7 +13,7 @@ ReactDOM.createRoot(document.getElementById('root')).render(
 document.addEventListener('DOMContentLoaded', function() {
   const bg = document.getElementById('cursor-bg');
   document.addEventListener('pointermove',(e)=>{
-    bg.style.display = 'block';
+    // bg.style.display = 'block';
     bg.animate({
         top: e.pageY-200+ 'px',
         left: e.pageX-200 + 'px'

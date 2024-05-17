@@ -2,8 +2,8 @@
     user-select: none;
     display: flex;
     position: absolute;
-    overflow-y: hidden;
-    width: 100%;
+    /* overflow-y: hidden; */
+    /* width: 100%; */
     overflow-x: hidden;
     /* height: 100%; */
     padding-bottom: 5%;
@@ -139,7 +139,7 @@
             font-size: 2rem;
         }
         .subtitle{
-            font-size: 1.5rem;
+            font-size: 1.3rem;
         }
         .description{
             font-size: 1rem;

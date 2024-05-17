@@ -7,3 +7,9 @@
     filter: blur(200px);
     z-index: -1;
 }
+
+@media (max-width: 800px){
+    #cursor-bg{
+        display: none;
+    }
+}
