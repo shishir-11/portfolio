@@ -10,7 +10,7 @@ import ProjPage from './pages/ProjPage'
 function App() {
   return (
     <>
-      <Cursor/>
+      {/* <Cursor/> */}
       <Navbar/>
       <Routes>
         <Route path={'/portfolio'} element={<HomePage/>}/>
