@@ -19,6 +19,16 @@ const blogData = [
         github_link: 'https://github.com/shishir-11/portfolio',
         external_link: 'https://shishir-11.github.io/portfolio'
     },
+    {
+        id:3,
+        title: 'GSoC Community Bonding Period Ends',
+        date: 'May 28 2024',
+        subtitle: 'This Blog summarises the community bonding period and appreciates the support by the entire team and the mentors',
+        content:'blog3.txt',
+        tags: ['Sympy' , 'Python'],
+        github_link: 'https://github.com/sympy/sympy/pull/25461',
+        external_link: 'https://shishir-11.github.io/articles'
+    }
 ]
 
 export default blogData;
